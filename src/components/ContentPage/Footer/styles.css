@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2d3844;
+  color: #c5cbd1;
+}
+
+.footer__label {
+  font-size: 14px;
+}
+
+.footer__date {
+  color: #888888;
+  font-size: 12px;
+}

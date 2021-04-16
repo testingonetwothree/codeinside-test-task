@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2d3844;
+  color: #c5cbd1;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.header__student {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+.header__student_dropdown-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 30px;
+  background-color: #2d3844;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.header__student_dropdown-menu-item {
+  padding: 4px 0;
+}
