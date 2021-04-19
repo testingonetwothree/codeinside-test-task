@@ -1,13 +1,13 @@
 import React from "react";
 import {Authorization} from "./components/Authorization";
 import {ProvideAuth} from "./hooks/useAuth";
-import './App.css';
+import './styles.css';
 
 
 const App = () => {
   return (
     <ProvideAuth>
-      <Authorization />
+      <Authorization/>
     </ProvideAuth>
   );
 }

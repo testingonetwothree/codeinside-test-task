@@ -19,6 +19,7 @@ export const LoginPage = () => {
     )
   }
 
+
   return (
     <div className='login-form'>
       <div className='login-form__wrapper'>
@@ -41,7 +42,6 @@ export const LoginPage = () => {
           Войти
         </button>
       </div>
-
     </div>
   )
 }

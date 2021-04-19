@@ -1,22 +1,24 @@
 export const tableData = [
   {
-    id: '123asda123',
+    id: 'test123id',
     subject: 'Русский язык',
     excellent: 11,
     good: 15,
-    satisfying : 4,
+    satisfying: 4,
     bad: 1,
     awful: 0,
     absences: 2,
+    validated: true
   },
   {
-    id: 'pvczrfwcc2',
+    id: 'zxcqwerty123',
     subject: 'Литература',
     excellent: 21,
     good: 7,
-    satisfying : 1,
+    satisfying: 1,
     bad: 1,
     awful: 0,
     absences: 6,
+    validated: true
   },
 ]

@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding: 2rem;
   border: 1px solid #999;
+  background: #F2F8F8;
 }
 
 .login-form__wrapper {
@@ -21,11 +22,12 @@
   border: 1px solid #999;
   margin-bottom: 1rem;
   font-size: 0.8rem;
+  background: #EEEEEE;
 }
 
 .login-form__button {
-  background: linear-gradient(to bottom, #999, #777);
-  border-color: #999;
+  background: #008CBA;
+  border-color: #008ABA;
   border-radius: 3px;
   padding: 1rem;
   color: white;

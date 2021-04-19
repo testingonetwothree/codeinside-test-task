@@ -3,7 +3,7 @@ import {useAuth} from "../../../hooks/useAuth";
 import './styles.css'
 
 const projectName = 'Таблица успеваемости студента'
-const studentName = 'Анатолий Васильевич П.'
+const studentName = 'Анатолий Васильевич Петров'
 
 export const Header = () => {
   const [dropdown, setDropdown] = useState(false)
