@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {useAuth} from "../../../hooks/useAuth";
+import {useAuth} from "hooks/useAuth";
 import './styles.css'
 
 
@@ -35,6 +35,7 @@ export const LoginPage = () => {
           type='password'
           onChange={(event) => handleInput(event.target.value, 'password')}
         />
+        <div className='login-form__error'>{auth.error}</div>
         <button
           className='login-form__button'
           onClick={() => auth.handleLogin(input.login, input.password)}

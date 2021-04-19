@@ -1,9 +1,9 @@
 import React from 'react'
-import {Header} from "../ContentPage/Header";
-import {MainTable} from "../ContentPage/MainTable";
-import {LoginPage} from "./LoginPage";
-import {useAuth} from "../../hooks/useAuth";
-import {Footer} from "../ContentPage/Footer";
+import {Header} from "components/ContentPage/Header";
+import {MainTable} from "components/ContentPage/MainTable";
+import {LoginPage} from "components/Authorization/LoginPage";
+import {useAuth} from "hooks/useAuth";
+import {Footer} from "components/ContentPage/Footer";
 
 export const Authorization = () => {
 

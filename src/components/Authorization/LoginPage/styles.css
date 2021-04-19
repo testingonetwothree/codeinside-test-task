@@ -41,4 +41,11 @@
 .login-form__title {
   text-align: center;
   padding-bottom: 20px;
+  color: #222222;
+}
+
+.login-form__error {
+  height: 16px;
+  text-align: center;
+  color: #FF6D6A;
 }

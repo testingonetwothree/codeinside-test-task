@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {useAuth} from "../../../hooks/useAuth";
+import {useAuth} from "hooks/useAuth";
 import './styles.css'
 
 const projectName = 'Таблица успеваемости студента'

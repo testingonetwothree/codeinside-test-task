@@ -20,11 +20,14 @@ export const useAuth = () => {
 
 const useProvideAuth = () => {
   const [user, setUser] = useState(null);
+  const [error, setError] = useState(null)
 
   const handleLogin = (login, password) => {
+    setError(null)
     const isLoggedIn = Object.keys(allowedLogins).includes(login)
       && allowedLogins[login] === password
     setUser(isLoggedIn)
+    if (!isLoggedIn) setError('Неправильный логин и/или пароль!')
   }
 
   const handleLogout = () => {
@@ -33,6 +36,7 @@ const useProvideAuth = () => {
 
   return {
     user,
+    error,
     handleLogin,
     handleLogout
   };

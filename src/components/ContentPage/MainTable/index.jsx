@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import {Table} from "../../../shared/Table";
-import {MainTableHeader} from "./MainTableHeader/MainTableHeader";
-import {MainTableBody} from "./MainTableBody/MainTableBody";
-import {generateId} from "../../../common/utils";
-import {tableData} from "../../../mock/tabledata";
+import {Table} from "shared/Table";
+import {MainTableHeader} from "components/ContentPage/MainTable/MainTableHeader/MainTableHeader";
+import {MainTableBody} from "components/ContentPage/MainTable/MainTableBody/MainTableBody";
+import {generateId} from "common/utils";
+import {tableData} from "mock/tabledata";
 import './styles.css'
 
 
@@ -11,7 +11,7 @@ export const MainTable = () => {
 
   const emptyRow = {
     id: generateId(),
-    subject: 'Название предмета',
+    subject: '',
     excellent: 0,
     good: 0,
     satisfying: 0,
@@ -51,7 +51,9 @@ export const MainTable = () => {
           } : el
         )
       ))
-      return console.log(JSON.stringify(result, null, ' '))
+      if (Boolean(handleValidate([d.excellent, d.good, d.satisfying, d.bad, d.awful, d.absences], d.subject)))
+        return console.log(JSON.stringify(result, null, ' '))
+      return null
     })
   }
 

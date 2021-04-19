@@ -1,8 +1,8 @@
 import React from 'react'
-import {TableRow} from "../../../../shared/TableRow";
-import {TableCell} from "../../../../shared/TableCell";
-import {TableHeader} from "../../../../shared/TableHeader";
-import {headerData} from "../../../../mock/headerdata";
+import {TableRow} from "shared/TableRow";
+import {TableCell} from "shared/TableCell";
+import {TableHeader} from "shared/TableHeader";
+import {headerData} from "mock/headerdata";
 
 export const MainTableHeader = () => (
   <TableHeader className='table__header'>
